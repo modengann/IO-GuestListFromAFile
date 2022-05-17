@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class GuestListFromAFile {
 
     public static void main(String[] args) {
+        //Use scanner to collect data from user (keyboard inputs)
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Name of the file:");
@@ -16,6 +17,10 @@ public class GuestListFromAFile {
 
         ArrayList<String> list = new ArrayList<>();
         // implement reading the file here.
+
+
+
+        
         System.out.println("");
 
         System.out.println("Enter names, an empty line quits.");
